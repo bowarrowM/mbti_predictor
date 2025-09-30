@@ -9,7 +9,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, accuracy_score
 import re
-path = r"C:\Users\melik\Desktop\mbti_1.csv"
+path = r"C:\Users\{username}\Desktop\mbti_1.csv"
 
 # Read CSV
 df = pd.read_csv(path, header=None, dtype=str, engine="python")
